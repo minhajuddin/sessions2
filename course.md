@@ -2,9 +2,9 @@
 
 - HTTP
 - HTML
-- Javascript / jQuery / Ajax
-- CSS
 - Ruby
 - Rails
+- Javascript / jQuery / Ajax
+- CSS
 - How to build a simple rails app
 - Simple Site / School One code walkthrough

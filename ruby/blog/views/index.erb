@@ -1,0 +1,27 @@
+<!doctype html>
+<h1>Welcome to my blog</h1>
+
+<% @posts.each do |p| %>
+<article>
+  <h1><%= p['title'] %> </h1>
+  <div><%= p['content'] %> </div>
+</article>
+<% end %>
+
+<form action="/posts/" method="post">
+  <label>
+    Title
+    <br />
+    <input type="text" name="title" />
+  </label>
+  <br />
+
+  <label>
+    Content
+    <br />
+    <textarea name="content"></textarea>
+  </label>
+  <br />
+
+  <input type="submit" class="submit" value="Create Post" />
+</form>
